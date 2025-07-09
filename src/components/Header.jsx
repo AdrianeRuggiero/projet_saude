@@ -35,9 +35,10 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-white" to="/forum">
-                💬 Forum
-              </Link>
+                <Link className="nav-link text-white" to="/forum">
+                    <i className="bi bi-chat-dots me-1"></i>
+                        Forum
+                </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link text-white" to="/ressources">
